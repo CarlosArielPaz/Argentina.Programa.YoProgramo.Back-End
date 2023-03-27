@@ -7,7 +7,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.0.4</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath />
 	</parent>
 	<groupId>ar.carlosarielpaz</groupId>
 	<artifactId>Portfolio</artifactId>
@@ -16,7 +16,6 @@
 	<description>Argentina Programa · #YoProgramo · Portfolio</description>
 	<properties>
 		<java.version>19</java.version>
-		<!-- <start-class>com.baeldung.demo.DemoApplication</start-class> -->
 	</properties>
 	<dependencies>
 		<dependency>
@@ -45,17 +44,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<!--<configuration>
-					<mainClass>com.baeldung.demo.DemoApplication</mainClass>
-					<layout>JAR</layout>
-				</configuration>
-				<executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-					</execution>
-				</executions> -->
 			</plugin>
 		</plugins>
 	</build>
