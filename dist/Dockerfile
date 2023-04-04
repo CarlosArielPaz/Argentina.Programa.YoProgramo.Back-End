@@ -1,10 +1,15 @@
+# App ➜ #YoProgramo
+
 #FROM eclipse-temurin:19.0.2_7-jre-jammy
 FROM amazoncorretto:19.0.2
 
-MAINTAINER CarlosArielPaz@gmail.com
+LABEL author = "CarlosArielPaz@gmail.com"
+LABEL version = "1.0.0"
 
-COPY ./portfolio.jar /
+WORKDIR /usr/local/app
+COPY ./COPY /
 
 EXPOSE 8080
 
-ENTRYPOINT ["java","-jar","/portfolio.jar"]
+ENTRYPOINT [ "java", "-jar", "/portfolio.jar" ]
+#CMD [ "java", "-jar", "/portfolio.jar" ]

@@ -15,6 +15,12 @@ public class User {
 	@Column(name = "id", columnDefinition = "INT UNSIGNED", nullable = false)
 	private Integer id;
 
+	@Column(name = "username", length = 50, nullable = false)
+	private String username;
+
+	@Column(name = "password", length = 50, nullable = false)
+	private String password;
+
 	@Column(name = "name", length = 50, nullable = false)
 	private String name;
 
