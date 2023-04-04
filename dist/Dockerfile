@@ -11,5 +11,5 @@ COPY ./COPY /
 
 EXPOSE 8080
 
-ENTRYPOINT [ "java", "-jar", "/app.jar" ]
+ENTRYPOINT [ "java", "-jar", "/portfolio-1.0.0.jar" ]
 #CMD [ "java", "-jar", "/app.jar" ]

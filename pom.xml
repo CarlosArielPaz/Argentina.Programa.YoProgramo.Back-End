@@ -10,7 +10,7 @@
 		<relativePath />
 	</parent>
 	<groupId>ar.carlosarielpaz</groupId>
-	<artifactId>Portfolio</artifactId>
+	<artifactId>portfolio</artifactId>
 	<version>1.0.0</version>
 	<name>Portfolio</name>
 	<description>Argentina Programa · #YoProgramo · Portfolio</description>
